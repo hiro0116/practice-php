@@ -1,0 +1,155 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* header情報 */
+header {
+  height: 80px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+.header_lists {
+  display: flex;
+  list-style: none;
+}
+
+.header_list {
+  margin-right: 40px;
+}
+
+
+/* main情報 */
+main {
+  background-color: #ffffff;
+}
+
+.contents {
+  max-width: 820px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px #333 solid;
+}
+
+.store_info {
+  width: 100%;
+}
+
+.information {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px #dddddd solid;
+  padding-bottom: 1em;
+}
+
+.info-title {
+  width: 30%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.info-explain {
+  width: 70%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.store_recommend {
+  width: 100%;
+}
+
+.recommend {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px #dddddd solid;
+  padding-bottom: 1em;
+}
+
+.recommend-title {
+  width: 300px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.recommend-explain {
+  width: 60%;
+  font-size: 14px;
+  line-height: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.store_staff {
+  width: 100%;
+}
+
+.staff-lists {
+  display: flex;
+  justify-content: space-around;
+}
+
+.staff-list {
+  list-style: none;
+  text-align: center;
+}
+
+.store_contact {
+  width: 100%;
+}
+
+
+/* footer情報 */
+footer {
+  background-color: #eeeeee;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.footer-lists {
+  display: flex;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0 15px;
+}
