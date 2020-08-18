@@ -7,5 +7,12 @@
   <title>お問い合わせフォーム</title>
 </head>
 <body>
+  <h1>お問い合わせありがとうございます</h1>
+  <div>
+    <h2>入力内容</h2>
+    <div>メールアドレス
+      <?php echo $_POST['email']; ?>
+    </div>
+  </div>
 </body>
 </html>

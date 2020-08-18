@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hair Salon</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <header>
     <h1>Hair Salon</h1>
-    <ul class = "header_lists">
+    <ul class = "lists">
       <li class = "header_list">
         <a href="#">お知らせ</a>
       </li>
@@ -103,19 +103,23 @@
       <div class = "store_contact">
         <h3>お問い合わせ</h3>
         <div class = "contact_form">
-        <form action="sent.php" method = "post">
-          <div class = "contact-item">件名</div>
-          <input type="text" name = "name">
-          <div class = "contact-item">お問い合わせ内容</div>
-          <textarea name="form"></textarea>
-          <input type="submit" value = "送信">
-        </form>
+          <form action="sent.php" method = "post">
+            <div class = "contact-item">メールアドレス</div>
+              <input type="email" name= "email" class = "form">
+            <div class = "contact-item">件名</div>
+              <input type="text" name = "subject" class = "form">
+            <div class = "contact-item">お問い合わせ内容</div>
+              <textarea name="form" class = "form"></textarea>
+            <div class = "send-btn">
+              <input class = "btn" type="submit" value = "送信">
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </main>
   <footer>
-    <ul class = "footer-lists">
+    <ul class = "lists">
       <li class = "footer-list">
         <a href="#">お知らせ</a>
       </li>

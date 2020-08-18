@@ -8,11 +8,16 @@ body {
 ul,li {
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 a {
   text-decoration: none;
   color: #333;
+}
+
+.lists {
+  display: flex;
 }
 
 /* header情報 */
@@ -26,11 +31,6 @@ header {
 
 h1 {
   margin-left: 20px;
-}
-
-.header_lists {
-  display: flex;
-  list-style: none;
 }
 
 .header_list {
@@ -134,6 +134,31 @@ h3 {
   width: 100%;
 }
 
+.contact_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-item {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.form {
+  width: 500px;
+}
+
+.send-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+}
+
 
 /* footer情報 */
 footer {
@@ -142,14 +167,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
-}
-
-.footer-lists {
-  display: flex;
+  margin-top: 90px;
 }
 
 .footer-list {
-  list-style: none;
   padding: 0 15px;
 }
