@@ -14,7 +14,7 @@
         <a href="#">お知らせ</a>
       </li>
       <li class = "header_list">
-        <a href="#">予約</a>
+        <a href="calendar.php">予約</a>
       </li>
       <li class = "header_list">
         <a href="#">メニュー</a>
@@ -124,7 +124,7 @@
         <a href="#">お知らせ</a>
       </li>
       <li class = "footer-list">
-        <a href="#">予約</a>
+        <a href="calendar.php">予約</a>
       </li>
       <li class = "footer-list">
         <a href="#">メニュー</a>
